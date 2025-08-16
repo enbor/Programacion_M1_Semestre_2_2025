@@ -1,0 +1,161 @@
+ nombre:  Enrique Boror
+ curso: programación matemática1
+ profesor: javier
+ tema: proyecto1.
+
+  Problema numero 1
+
+Lee tres números racionales y clasifique cada uno como positivo, negativo o cero
+Luego cuantos hay de cada tipo.
+
+   Pseudocódigo
+
+
+inicio
+
+    definir a
+    definir b
+    definir c
+    
+    a,b,c son números racionales
+
+     positivo
+     negativo
+     cero
+     
+     leer a,b,c
+           
+         Escribir  "Ingresar el primer número:"
+             leer a
+         Escribir   "Ingresar el segundo número:"
+             leer b
+         Escribir   "Ingresar el tercer número:"
+             leer c
+             si a>0 entonces
+                 positivo = positivo + 1
+             si a<0 entonces 
+                 negativo = negativo + 1
+             si_no
+                 cero = cero + 1
+             Finsi
+
+             si b>0 entonces
+                 positivo = positivo + 1
+             si b<0 entonces 
+                 negativo = negativo + 1
+             si_no
+                 cero = cero + 1
+             Finsi
+            
+             si c>0 entonces
+                 positivo = positivo + 1
+             si c<0 entonces 
+                 negativo = negativo + 1
+             si_no
+                 cero = cero + 1
+             Finsi
+          Escribir "cantidad de números positivos:"  positivos
+          Escribir "cantidad de números negativos:"  negativos
+          Escribir "cantidad de números ceros:"  ceros
+fin
+
+
+[Problema 2  
+
+Lee un entero positivo y cuenta cuanto de sus digitos son primos.
+
+
+     Pseudocódigo
+
+inicio
+   contador <-- cero
+   digito_primo <-- cero
+   leer número
+   Mientras número>1
+       digito <--- número mod(10)
+       si dígito en (2,3,5,7) entonces
+           contador ++
+       fin si
+       fin mientras
+      número = número - dígito
+      número = número / 10
+fin
+
+problema 3
+[Lee los salarios de N  empleados
+y calcula el salario promedio cuantos ganan arriba del promedio
+y la desviación estandar.
+
+ Lista de salarios. con los salarios de los N empleados.
+
+inicio
+    calcular_salario(N,salarios):
+    salario = cero
+    salario_promedio = (salario+salario+....+salario)/N
+    empleados_arriba_promedio = cero
+    si salario > salario_promedio
+        arriba_promedio = arriba_promedio + 1
+        varianza = cero
+        diferencia = salario - salario_promedio
+        varianza = varianza + (diferencia * diferencia)
+        varianza = varianza / N
+        desviación_estandar = sqrt(varianza)
+        retornar salario_promedio: salario_promedio
+        arriba_promedio: empleados arriba_promedio
+        desviación estandar:  desviacion_estandar
+fin.
+
+problema 4
+Lee un valor x y evalua la siguiente función.
+
+f(x)= x*x  si x<0
+    = 2x+1  si 0<=x<=10
+    = 3x-5   si x>10
+
+inicio
+    real f
+    leer x 
+    si x<0 entonces 
+        f = x*x
+    sino 0<=x and x<=10
+        f = 2*x+1
+     sino
+         f = 3*x-5
+     fin si
+     escribir f
+fin
+
+problema 5
+
+Leer un número entero positivo y muestre su representación en binario
+
+inicio
+    def número
+    def resto como entero
+    def contador
+    escribir "ingrese un numero entero positivo"
+    leer número
+    binario = cero
+    contador 
+    Mientras número > 0 hacer
+       resto = número mod(2)
+       número = número/2
+       contador = (resto)+ contador
+    fin mientras
+    escribir "representacion binaria: , contador"
+ fin inicio
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
