@@ -1,0 +1,82 @@
+NOMBRE:  ENRIQUE BOROR
+CURSO: PROGRAMACION MATEMÁTICA 1
+
+
+
+
+En una lista de 10 numeros enteros calcular la suma de los pares 
+y el promedio de los impares.
+
+INICIO
+    definir entero suma_par
+    definir suma_promedio
+    definir real promedio  de impares
+    
+    para i desde 1 hasta 10 hacer
+         escribir ingresar número i
+         leer número 
+         si número es mod(2)=0 entonces
+         suma_par = suma_par + número
+         sino suma_prom = suma_impar/ impar
+         finsi
+    finpara
+    Escribir suma_par es Suma_par
+    Escribir prodedio_impar es promedio_impar
+FIN
+
+    
+
+
+crear un pseudocodigo para palabras palindromo
+
+INICIO
+    si palabra  es_palindromo hacer
+        invertir palabra
+    fin si
+    si palabra = a palabra invertida
+        escribir  palabra es_palindromo
+    finsi
+    si no 
+        Escribir palabra no es palindromo
+
+FIN 
+
+Crear un pseudocodigo para el maximo comun divisor, algoritmo de euclides
+no utlizar ciclos.
+
+INICIO
+    definir MCD(a,b)
+    mientras b != 0 hacer a/b
+    escribir  a = b*c+r
+    finmientras
+    si el ultimo valor de resto es el MCD(a,b)
+    escribir a
+    fin si
+FIN
+    
+
+
+
+5
+ Lea un número entero positivo mayor que 1
+  y determine si es primo.
+
+
+INICIO 
+    definir  a entero
+    Escribir a entero positivo
+        si a <= 1 entonces 
+        escribir a no es primo
+        finsi
+        
+        Si a = 2 entonces a es primo
+        finsi
+        si a es mod(2)= 0 entonces 
+        escribir a no es primo
+        fin si
+    Escribir  a es primo
+FIN
+
+
+
+
